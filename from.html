@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport"
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+
+    <!-- Import lib -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/89496616d0.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <div class="container">
+        <form role="form">
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 style="color:blue;">Edit Problem Statement</h3><br>
+                    <label>Title</label><br>
+                    <input type="Title" class="form-control" id="name" placeholder="Type here"><br>
+                    <label>Description</label><br>
+                    <textarea class="form-control" id="message" rows="2" cols="2"
+                        placeholder="Type here"></textarea><br>
+                    <label>Catagory</label><br>
+                    <input type="catagory" class="form-control" id="name" placeholder="Type here"><br>
+                    <label>Problem Area</label><br>
+                    <input type="problem area" class="form-control" id="name" placeholder="Type here"><br>
+                    <label>Important Area</label><br>
+                    <input type="importtant area" class="form-control" id="name" placeholder="Type here"><br>
+                    <label>Desired Date to Complete</label><br>
+                    <input type="desired date" class="form-control" id="name" placeholder="Type here"><br>
+                    <label>Status</label><br>
+                    <select name="status" class="form-control" id="status"><br>
+                        <option value="open">open</option>
+                    </select>
+                    <label>Attachments</label>
+                    <p>Intro Business Administrstor Management.doc <i class="fa fa-eye" aria-hidden="true"></i></p>
+                    <p>Management sys Training in Essential skills.pdf <i class="fa fa-eye" aria-hidden="true"></i></p>
+                
+
+                    <label>Attachments</label><br>
+                    <input id="file" name="file" type="file" class="form-control" required><br>
+                    <label>Notes</label><br>
+                    <textarea class="form-control" id="message" rows="2" cols="2"
+                        placeholder="Type here"></textarea><br>
+                </div>
+
+
+                <div class="col-md-6">
+
+                    <h3 style="color:blue;">Assign Project</h3><br>
+                    <label>Search Project</label><br>
+                    <input type="search" id="query" name="q" class="form-control" placeholder="search here...."><br>
+                   
+                    <label> Project Assign</label><br>
+                    <textarea class="form-control" id="message" rows="4" cols="4"
+                        placeholder="Type here"></textarea><br>
+                    <label> Project Assigned </label><br>
+                    <table class="table table-striped">
+
+                        <thead>
+                            <tr>
+                                
+                                <th scope="col">Project Name</th>
+                                <th scope="col">Assign Date</th>
+                                <th scope="col"></th>
+
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Course Management</td>
+                                <td>12/5/2021</td>
+        
+                                <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                
+                                <td>Business Management</td>
+                                <td>25/6/2022</td>
+                                <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                    
+                            <tr>
+                                
+                                <td>Marketing Management</td>
+                                <td>29/6/2015</td>
+                                <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+
+                       
+                    <h3 style="color:blue;">Assign Contact</h3><br>
+                    <label>Assign Contact</label><br>
+                    <input type="search" id="query" name="q" class="form-control" placeholder="search here...."><br>
+                    <label> Contact Assigned</label><br>
+                    <table class="table table-striped">
+
+                        <thead>
+                            <tr>
+                                
+                                <th scope="col">Contact Name</th>
+                                <th scope="col">Assign Date</th>
+                                <th scope="col"></th>
+
+                                
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fa fa-user-circle" style="font-size:25px;" aria-hidden="true"></i>John Amit Philips</td>
+                                <td>12/5/2021</td>
+        
+                                <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                            <tr>
+                                
+                                <td><i class="fa fa-user-circle" style="font-size:25px;" aria-hidden="true"></i>Ron Lee</td>
+                                <td>25/6/2022</td>
+                                <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                    
+                            <tr>
+                                
+                                <td><i class="fa fa-user-circle" style="font-size:25px;" aria-hidden="true"></i>Nancy</td>
+                                <td>29/6/2015</td>
+                                <td><i class="fa fa-trash-o" aria-hidden="true"></i></td>
+                            </tr>
+                        </tbody>
+
+                    </table>
+                    <th>
+                        <p>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                                aria-expanded="false" aria-controls="collapseExample">
+                                View Notes (10)
+                            </a>
+
+                        </p>
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Notes</th>
+                                            <th scope="col">Created By</th>
+                                            <th scope="col">Assigned date</th>
+                                            <th scope="col">View Attachments</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">Course Management</th>
+                                            <td>Maureen Biologist</td>
+                                            <td>12/2/2021,12-15 pm</td>
+                                            <td><a href="url "><u>Management.doc</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Business Admin Management</th>
+                                            <td>Teri Dactyl Peggy</td>
+                                            <td>16/6/2021,17-23 pm</td>
+                                            <td><a href="url "><u>Business.pptx</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Marketing Management</th>
+                                            <td>olive yew Aida Bugg</td>
+                                            <td>25/8/2016,19-35 pm</td>
+                                            <td><a href="url "><u>Marketing.pdf</a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">Course Management</th>
+                                            <td>Maureen Biologist</td>
+                                            <td>17/2/2021,12-15 pm</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="botton">
+                            <a class="btn btn-primary" href="#">Save</a>
+                            <a class="btn btn-secondary" href="#">Cancle</a>
+                        </div>
+
+                    </th>
+                </div>
+            </div>
+     </div>
+     </div>
+
+</body>
+
+</html>
